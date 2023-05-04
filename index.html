@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X-VeLox Motorbike</title>
+  <meta name="description"
+    content="Motos eléticas de alta velocidade que seram o futuro do transporte terrestre, feitas sobre medida para sua necessidade" />
+
+  <link rel="shortcut icon" href="./vx.png">
+
+  <link rel="preload" href="./css/style.css" as="style">
+  <!--Pré carrega css antes de tudo-->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!--CARREGAR O SITE OTIMIZADO CASO JAVASCRIPT NÃO CARREGUE-->
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <!--Esta div segura o container do header com fundo preto que vai de ponta a ponta-->
+      <a href="./"><img src="./motos-img/images.png" alt="moto" /></a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu font-1-m cor-0">
+          <li><a href="./motos.html">Motos</a></li>
+          <li><a href="./seguros.html">Insurance</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!----------------------PRESENTATION------------------------------>
+  <main class="introducao-bg">
+    <div class="introducao container">
+      <div class="introducao-conteudo">
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">
+          The most modern electric motorcycles in the world at your fingertips<span class="cor-p1">.</span>
+        </h1>
+        <p class="font-2-l cor-5" data-anime="400">
+          High or low cylinder electric motorcycles. designed by
+          Designers, produced to meet all needs
+        </p>
+        <a class="button" data-anime="600" href="./motos.html">Make your choice!</a>
+      </div>
+      <picture data-anime="800">
+        <source media="(max-width: 800px)" srcset="./motos-img/triumph 02.jpg">
+        <img src="./motos-img/triumph 02.jpg" width="1280" height="1600" alt="moto de introdução" alt="moto cinza">
+      </picture>
+    </div>
+  </main>
+
+  <!-----------------------MOTORCYCLE LIST-------------------------->
+  <article class="motos-lista">
+    <h2 class="container font-1-xxl">
+      Choose your Model<span class="cor-p1">.</span>
+    </h2>
+    <ul>
+      <li>
+        <a href="./motos/voltz.html">
+          <img src="./motos-img/voltz-evs-1p.jpg" alt="motos" />
+          <h3 class="font-1-xl">Voltz-EVS</h3>
+          <span class="font-2-m cor-8">120 cc</span>
+        </a>
+      </li>
+      <li>
+        <a href="./motos/yamaha.html">
+          <img src="./motos-img/ty01.jpg" alt="motos" />
+          <h3 class="font-1-xl">Yamaha TY-E</h3>
+          <span class="font-2-m cor-8">150 cc</span>
+        </a>
+      </li>
+      <li>
+        <a href="./motos/triumph.html">
+          <img src="./motos-img/triumph 02.jpg" alt="motos" />
+          <h3 class="font-1-xl">Triumph TE-1</h3>
+          <span class="font-2-m cor-8">350 cc</span>
+        </a>
+      </li>
+    </ul>
+  </article>
+
+  <!--------------------------TECHNOLOGY SECTION----------------------->
+
+  <article class="tecnologia-bg">
+    <div class="tecnologia container">
+      <div class="tecnologia-conteudo">
+        <span class="font-2-l-b cor-5">Advanced technology</span>
+        <h2 class="font-1-xxl cor-0">
+          You choose the technology and components of your bike<span class="cor-p1">.</span>
+        </h2>
+
+        <p class="font-2-l cor-5">
+          Each X-Velox is unique and has its own identity. technologies will be
+          exact to your needs, ensuring greater comfort,
+          ergonomics and power on the track. You can also choose your
+          favorite colors<span>.</span>
+        </p>
+
+        <div class="tecnologia-vantagens">
+          <div>
+            <img src="./motos-img/icones/velocidade.svg" alt="moto" />
+            <h3 class="font-1-m cor-0">Electric Motor</h3>
+            <p class="font-2-s cor-5">
+              Every X-Velox is equipped with an electric motor that lasts
+              up to 120 hours. But it also has a reserve gas tank.
+              not to let you down.
+            </p>
+          </div>
+          <div>
+            <img src="./motos-img/icones/rastreador.svg" alt="rastrear" />
+            <div class="tecnologia-img">
+              <h3 class="font-1-m cor-0">Factory Tracker</h3>
+              <p class="font-2-s cor-5">
+                Every X-Velox is equipped with a factory tracker and locking system that, together with insurance
+                X-Velox give you greater security
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tecnologia-img">
+        <img src="./motos-img/EVS-2 motoqueiro.jpg" alt="tecnologia" />
+      </div>
+    </div>
+  </article>
+
+  <!------------------------------PARTNERS----------------------------->
+  <section class="parceiros" aria-label="Nossos parceiros">
+    <h2 class="container font-1-xxl">
+      Our partners<span class="cor-p1">.</span>
+    </h2>
+    <ul>
+      <li><img src="./motos-img/parceiros/caravan.svg" alt="caravan" /></li>
+      <li><img src="./motos-img/parceiros/dogs.svg" alt="caravan" /></li>
+      <li><img src="./motos-img/parceiros/flexblog.svg" alt="flexdog" /></li>
+      <li><img src="./motos-img/parceiros/handel.svg" alt="handel" /></li>
+      <li><img src="./motos-img/parceiros/lescone.svg" alt="lescone" /></li>
+      <li><img src="./motos-img/parceiros/ranek.svg" alt="caravan" /></li>
+      <li><img src="./motos-img/parceiros/surfbot.svg" alt="surfbot" /></li>
+      <li>
+        <img src="./motos-img/parceiros/wildbeast.svg" alt="wildbeast" />
+      </li>
+    </ul>
+  </section>
+
+  <!--------------------------TESTIMONY---------------------------->
+  <section class="depoimento" aria-label="depoimento">
+    <div>
+      <img src="./motos-img/husqvarna-e-pilen-concept.jpg" alt="moto" />
+    </div>
+    <div class="depoimento-conteudo">
+      <blockquote class="font-1-xl cor-p5">
+        <p>
+          
+        </p>
+      </blockquote>
+      <span class="font-1-m-b cor-p4">Edgar Allan Poe</span>
+    </div>
+  </section>
+
+  <!-----------------------------INSURANCE------------------------------->
+  <article class="seguro-bg">
+    <div class="seguro container">
+      <h2 class="container font-1-xxl cor-0">Seguros
+        <span class="cor-p1">.</span>
+      </h2>
+      <div class="seguro-item">
+        <h3 class="font-1-x1 cor-6">PRATA</h3>
+        <span class="font-1-xl cor-0">R$199<span class="font-1-xs cor-6">monthly</span></span>
+        <ul class="font-2-m cor-0">
+          <li>Two exchanges per year</li>
+          <li>Technical assistance</li>
+          <li></li>Business hours support
+          <li>State coverage</li>
+        </ul>
+        <a class="button secundario" href="./orcamento.html">sign up</a>
+      </div>
+
+      <div class="seguro-item">
+        <h3 class="font-1-x1 cor-p1">GOLD</h3>
+        <span class="font-1-xl cor-0">R$299<span class="font-1-xs cor-6">monthly</span></span>
+        <ul class="font-2-m cor-0">
+          <li>Five exchanges per year</li>
+          <li>Specialized Technical Assistance</li>
+          <li>24hr support</li>
+          <li>National Coverage</li>
+        </ul>
+        <a class="button" href="./orcamento.html">sign up</a>
+      </div>
+    </div>
+  </article>
+
+  <!-------------------------FOOTER AREA----------------------------->
+  <footer class="footer-bg">
+    <div class="footer container">
+      
+      <div class="footer-contato">
+        <h3 class="font-2-1-b cor-0">Contact</h3>
+        <ul class="font-1 cor-5">
+          <li><a href="tel: +5512 991705830">+201028968376</a></li>
+          <li>
+            <a href="mailto: jxcoder.dev@gmail.com">omarshepl44@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps">37 Elstad  Street - Through the Bridge</a>
+          </li>
+          <li>Sao Paulo-SP</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="./">
+            <img src="./motos-img/redes/instagram.svg" alt="instagram" />
+          </a>
+          <a href="./">
+            <img src="./motos-img/redes/facebook.svg" alt="facebook" />
+          </a>
+          <a href="./">
+            <img src="./motos-img/redes/youtube.svg" alt="youtube" />
+          </a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="font-2-1-b cor-0">Information</h3>
+        <nav>
+          <ul class="font-1-m cor-5">
+            <li><a href="./motos.html">Motos</a></li>
+            <li><a href="./seguros.html">Insurance</a></li>
+            <li><a href="./contato.html">Contact</a></li>
+            <li><a href="./termos.html">Terms and conditions</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy font-2-m cor-6">
+       All rights reserved by Omar shepl.
+      </p>
+    </div>
+     
+  </footer>
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+  
+</body>
+
+</html>
